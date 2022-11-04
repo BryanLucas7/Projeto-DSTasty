@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');/*Geralmente a gente não coloca tamanho pras section, so pra header e footer*/
+:root{
+    --red: #F03C42;
+    --bg-grey:#E5E5E5;
+    --text-grey: #5E5E5E;
+    --green: #02B814;
+    --yellow: #FFF964;
+    --white: #FFFF;
+
+
+}
+
+*{
+     font-family: 'Poppins', sans-serif;
+     box-sizing: border-box;
+     margin: 0 ;
+     padding: 0;
+}
+
+header{
+    background-color: var(--red
+    );
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav h1{
+    color: var(--yellow);
+    font-size: 24px;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#pizzas{
+    padding:20px 0 ;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: var(--bg-grey);
+}
+.pizza{
+    display: flex;
+    margin: 20px 0px ;
+}
+.pizza img{
+    border-radius: 12px 0px 0px 12px;
+    width: 200px;
+}
+.pizza-description{
+
+    background-color: var(--white);
+    border-radius: 0px 12px 12px 0px ;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ele tá alinhando no Eixo vertical por causa do flex-direction columm, que mudou o eixo para vertical */
+}
+.pizza-description h3{
+    font-weight: 700;
+    color: var(--text-grey);
+    font-size: 24px;
+
+}
+.pizza-description p{
+    font-size: 14px;
+    color: var(--text-grey);
+    font-weight: 400;
+}
+.pizza-description h4{
+    color: var(--green);
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.comments-div { /*Eu aumentei o tamanho do amarelo adicionando padding*/
+    background-color: #FFF964;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    color: var(--red);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+#comments{
+    background-color: var(--white);
+    margin-top:40px; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#comments h2 {
+    text-align: center;
+    color: var(--text-grey);
+    font-size: 32px
+
+}
+footer{
+    height: 120px;
+    background-color: var(--red);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-text{
+    padding-top: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+}
